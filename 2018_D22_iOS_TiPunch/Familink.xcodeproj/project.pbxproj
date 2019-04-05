@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CDAA57D22035976000C36E3 /* CustomUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAA57C22035976000C36E3 /* CustomUI.swift */; };
+		CC0E454F2202F904001949CC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E454E2202F904001949CC /* SplashViewController.swift */; };
+		CC133EF0220210D0000DE13A /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC133EEF220210D0000DE13A /* LoadingScreen.swift */; };
+		CC2F5B1E21F8785E000B1909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2F5B1D21F8785E000B1909 /* AppDelegate.swift */; };
+		CC2F5B2021F8785E000B1909 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2F5B1F21F8785E000B1909 /* MasterViewController.swift */; };
+		CC2F5B2321F8785E000B1909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2F5B2121F8785E000B1909 /* Main.storyboard */; };
+		CC2F5B2621F8785E000B1909 /* Familink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC2F5B2421F8785E000B1909 /* Familink.xcdatamodeld */; };
+		CC2F5B2821F8785F000B1909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2F5B2721F8785F000B1909 /* Assets.xcassets */; };
+		CC2F5B3621F8785F000B1909 /* FamilinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2F5B3521F8785F000B1909 /* FamilinkTests.swift */; };
+		CC2F5B4121F8785F000B1909 /* FamilinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2F5B4021F8785F000B1909 /* FamilinkUITests.swift */; };
+		CC2F5B5321F8C065000B1909 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2F5B5221F8C065000B1909 /* LoginViewController.swift */; };
+		CC54AEC421FB25220078AD15 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54AEC321FB25220078AD15 /* APIClient.swift */; };
+		CC771FF121F8CABD0058FAD5 /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC771FF021F8CABD0058FAD5 /* ContactListTableViewController.swift */; };
+		CC771FF421F8CADF0058FAD5 /* ContactListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC771FF221F8CADF0058FAD5 /* ContactListTableViewCell.swift */; };
+		CC771FF521F8CADF0058FAD5 /* ContactListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC771FF321F8CADF0058FAD5 /* ContactListTableViewCell.xib */; };
+		CC771FF721F8CE980058FAD5 /* DetailsContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC771FF621F8CE980058FAD5 /* DetailsContactViewController.swift */; };
+		CC771FF921F8CEA80058FAD5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC771FF821F8CEA80058FAD5 /* ProfileViewController.swift */; };
+		CC771FFB21F8CEB70058FAD5 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC771FFA21F8CEB70058FAD5 /* AddContactViewController.swift */; };
+		CC937AD121F9CB2A0099858D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC937AD021F9CB2A0099858D /* SignUpViewController.swift */; };
+		CCA41E1422008879008394A1 /* ConnectedClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA41E1322008879008394A1 /* ConnectedClient.swift */; };
+		CCA41E1622009904008394A1 /* CoreDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA41E1522009904008394A1 /* CoreDataClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC2F5B3221F8785F000B1909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2F5B1221F8785E000B1909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2F5B1921F8785E000B1909;
+			remoteInfo = Familink;
+		};
+		CC2F5B3D21F8785F000B1909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2F5B1221F8785E000B1909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2F5B1921F8785E000B1909;
+			remoteInfo = Familink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CDAA57C22035976000C36E3 /* CustomUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUI.swift; sourceTree = "<group>"; };
+		CC0E454E2202F904001949CC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		CC133EEF220210D0000DE13A /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		CC2F5B1A21F8785E000B1909 /* Familink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Familink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2F5B1D21F8785E000B1909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC2F5B1F21F8785E000B1909 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		CC2F5B2221F8785E000B1909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC2F5B2521F8785E000B1909 /* Familink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Familink.xcdatamodel; sourceTree = "<group>"; };
+		CC2F5B2721F8785F000B1909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC2F5B2C21F8785F000B1909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2F5B3121F8785F000B1909 /* FamilinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamilinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2F5B3521F8785F000B1909 /* FamilinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilinkTests.swift; sourceTree = "<group>"; };
+		CC2F5B3721F8785F000B1909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2F5B3C21F8785F000B1909 /* FamilinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamilinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2F5B4021F8785F000B1909 /* FamilinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilinkUITests.swift; sourceTree = "<group>"; };
+		CC2F5B4221F8785F000B1909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2F5B5221F8C065000B1909 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CC54AEC321FB25220078AD15 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		CC771FF021F8CABD0058FAD5 /* ContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
+		CC771FF221F8CADF0058FAD5 /* ContactListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewCell.swift; sourceTree = "<group>"; };
+		CC771FF321F8CADF0058FAD5 /* ContactListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactListTableViewCell.xib; sourceTree = "<group>"; };
+		CC771FF621F8CE980058FAD5 /* DetailsContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsContactViewController.swift; sourceTree = "<group>"; };
+		CC771FF821F8CEA80058FAD5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CC771FFA21F8CEB70058FAD5 /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		CC937AD021F9CB2A0099858D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CCA41E1322008879008394A1 /* ConnectedClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedClient.swift; sourceTree = "<group>"; };
+		CCA41E1522009904008394A1 /* CoreDataClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC2F5B1721F8785E000B1909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2F5B2E21F8785F000B1909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2F5B3921F8785F000B1909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC2F5B1121F8785E000B1909 = {
+			isa = PBXGroup;
+			children = (
+				CC2F5B1C21F8785E000B1909 /* Familink */,
+				CC2F5B3421F8785F000B1909 /* FamilinkTests */,
+				CC2F5B3F21F8785F000B1909 /* FamilinkUITests */,
+				CC2F5B1B21F8785E000B1909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC2F5B1B21F8785E000B1909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC2F5B1A21F8785E000B1909 /* Familink.app */,
+				CC2F5B3121F8785F000B1909 /* FamilinkTests.xctest */,
+				CC2F5B3C21F8785F000B1909 /* FamilinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC2F5B1C21F8785E000B1909 /* Familink */ = {
+			isa = PBXGroup;
+			children = (
+				CC54AEC521FB25270078AD15 /* UI */,
+				CC54AEC321FB25220078AD15 /* APIClient.swift */,
+				CCA41E1522009904008394A1 /* CoreDataClient.swift */,
+				CC133EEF220210D0000DE13A /* LoadingScreen.swift */,
+				CCA41E1322008879008394A1 /* ConnectedClient.swift */,
+				CC2F5B1D21F8785E000B1909 /* AppDelegate.swift */,
+				CC2F5B2721F8785F000B1909 /* Assets.xcassets */,
+				CC2F5B2C21F8785F000B1909 /* Info.plist */,
+				CC2F5B2421F8785E000B1909 /* Familink.xcdatamodeld */,
+				7CDAA57C22035976000C36E3 /* CustomUI.swift */,
+			);
+			path = Familink;
+			sourceTree = "<group>";
+		};
+		CC2F5B3421F8785F000B1909 /* FamilinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2F5B3521F8785F000B1909 /* FamilinkTests.swift */,
+				CC2F5B3721F8785F000B1909 /* Info.plist */,
+			);
+			path = FamilinkTests;
+			sourceTree = "<group>";
+		};
+		CC2F5B3F21F8785F000B1909 /* FamilinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2F5B4021F8785F000B1909 /* FamilinkUITests.swift */,
+				CC2F5B4221F8785F000B1909 /* Info.plist */,
+			);
+			path = FamilinkUITests;
+			sourceTree = "<group>";
+		};
+		CC54AEC521FB25270078AD15 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CC54AEC821FB253D0078AD15 /* ViewController */,
+				CC54AEC721FB25350078AD15 /* IB */,
+				CC54AEC621FB252B0078AD15 /* cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CC54AEC621FB252B0078AD15 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				CC771FF221F8CADF0058FAD5 /* ContactListTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		CC54AEC721FB25350078AD15 /* IB */ = {
+			isa = PBXGroup;
+			children = (
+				CC2F5B2121F8785E000B1909 /* Main.storyboard */,
+				CC771FF321F8CADF0058FAD5 /* ContactListTableViewCell.xib */,
+			);
+			path = IB;
+			sourceTree = "<group>";
+		};
+		CC54AEC821FB253D0078AD15 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC2F5B1F21F8785E000B1909 /* MasterViewController.swift */,
+				CC2F5B5221F8C065000B1909 /* LoginViewController.swift */,
+				CC771FF021F8CABD0058FAD5 /* ContactListTableViewController.swift */,
+				CC771FF621F8CE980058FAD5 /* DetailsContactViewController.swift */,
+				CC771FF821F8CEA80058FAD5 /* ProfileViewController.swift */,
+				CC771FFA21F8CEB70058FAD5 /* AddContactViewController.swift */,
+				CC937AD021F9CB2A0099858D /* SignUpViewController.swift */,
+				CC0E454E2202F904001949CC /* SplashViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC2F5B1921F8785E000B1909 /* Familink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2F5B4521F8785F000B1909 /* Build configuration list for PBXNativeTarget "Familink" */;
+			buildPhases = (
+				CC2F5B1621F8785E000B1909 /* Sources */,
+				CC2F5B1721F8785E000B1909 /* Frameworks */,
+				CC2F5B1821F8785E000B1909 /* Resources */,
+				BCCC4F1E21F8D1C4006863AB /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Familink;
+			productName = Familink;
+			productReference = CC2F5B1A21F8785E000B1909 /* Familink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC2F5B3021F8785F000B1909 /* FamilinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2F5B4821F8785F000B1909 /* Build configuration list for PBXNativeTarget "FamilinkTests" */;
+			buildPhases = (
+				CC2F5B2D21F8785F000B1909 /* Sources */,
+				CC2F5B2E21F8785F000B1909 /* Frameworks */,
+				CC2F5B2F21F8785F000B1909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2F5B3321F8785F000B1909 /* PBXTargetDependency */,
+			);
+			name = FamilinkTests;
+			productName = FamilinkTests;
+			productReference = CC2F5B3121F8785F000B1909 /* FamilinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC2F5B3B21F8785F000B1909 /* FamilinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2F5B4B21F8785F000B1909 /* Build configuration list for PBXNativeTarget "FamilinkUITests" */;
+			buildPhases = (
+				CC2F5B3821F8785F000B1909 /* Sources */,
+				CC2F5B3921F8785F000B1909 /* Frameworks */,
+				CC2F5B3A21F8785F000B1909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2F5B3E21F8785F000B1909 /* PBXTargetDependency */,
+			);
+			name = FamilinkUITests;
+			productName = FamilinkUITests;
+			productReference = CC2F5B3C21F8785F000B1909 /* FamilinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC2F5B1221F8785E000B1909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ti.punch;
+				TargetAttributes = {
+					CC2F5B1921F8785E000B1909 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CC2F5B3021F8785F000B1909 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CC2F5B1921F8785E000B1909;
+					};
+					CC2F5B3B21F8785F000B1909 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CC2F5B1921F8785E000B1909;
+					};
+				};
+			};
+			buildConfigurationList = CC2F5B1521F8785E000B1909 /* Build configuration list for PBXProject "Familink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC2F5B1121F8785E000B1909;
+			productRefGroup = CC2F5B1B21F8785E000B1909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC2F5B1921F8785E000B1909 /* Familink */,
+				CC2F5B3021F8785F000B1909 /* FamilinkTests */,
+				CC2F5B3B21F8785F000B1909 /* FamilinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC2F5B1821F8785E000B1909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC771FF521F8CADF0058FAD5 /* ContactListTableViewCell.xib in Resources */,
+				CC2F5B2821F8785F000B1909 /* Assets.xcassets in Resources */,
+				CC2F5B2321F8785E000B1909 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2F5B2F21F8785F000B1909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2F5B3A21F8785F000B1909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCCC4F1E21F8D1C4006863AB /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC2F5B1621F8785E000B1909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC771FF721F8CE980058FAD5 /* DetailsContactViewController.swift in Sources */,
+				CC2F5B5321F8C065000B1909 /* LoginViewController.swift in Sources */,
+				7CDAA57D22035976000C36E3 /* CustomUI.swift in Sources */,
+				CCA41E1422008879008394A1 /* ConnectedClient.swift in Sources */,
+				CC2F5B2021F8785E000B1909 /* MasterViewController.swift in Sources */,
+				CC771FFB21F8CEB70058FAD5 /* AddContactViewController.swift in Sources */,
+				CC0E454F2202F904001949CC /* SplashViewController.swift in Sources */,
+				CC937AD121F9CB2A0099858D /* SignUpViewController.swift in Sources */,
+				CC54AEC421FB25220078AD15 /* APIClient.swift in Sources */,
+				CC2F5B2621F8785E000B1909 /* Familink.xcdatamodeld in Sources */,
+				CC133EF0220210D0000DE13A /* LoadingScreen.swift in Sources */,
+				CC771FF121F8CABD0058FAD5 /* ContactListTableViewController.swift in Sources */,
+				CCA41E1622009904008394A1 /* CoreDataClient.swift in Sources */,
+				CC771FF421F8CADF0058FAD5 /* ContactListTableViewCell.swift in Sources */,
+				CC771FF921F8CEA80058FAD5 /* ProfileViewController.swift in Sources */,
+				CC2F5B1E21F8785E000B1909 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2F5B2D21F8785F000B1909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2F5B3621F8785F000B1909 /* FamilinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2F5B3821F8785F000B1909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2F5B4121F8785F000B1909 /* FamilinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC2F5B3321F8785F000B1909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2F5B1921F8785E000B1909 /* Familink */;
+			targetProxy = CC2F5B3221F8785F000B1909 /* PBXContainerItemProxy */;
+		};
+		CC2F5B3E21F8785F000B1909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2F5B1921F8785E000B1909 /* Familink */;
+			targetProxy = CC2F5B3D21F8785F000B1909 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC2F5B2121F8785E000B1909 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2F5B2221F8785E000B1909 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC2F5B4321F8785F000B1909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC2F5B4421F8785F000B1909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC2F5B4621F8785F000B1909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CU7M5VQDU5;
+				INFOPLIST_FILE = Familink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bewizyu.Familink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DEV_WILDCARD_DIGINAMIC;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC2F5B4721F8785F000B1909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CU7M5VQDU5;
+				INFOPLIST_FILE = Familink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bewizyu.Familink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DEV_WILDCARD_DIGINAMIC;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC2F5B4921F8785F000B1909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FamilinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ti.punch.FamilinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Familink.app/Familink";
+			};
+			name = Debug;
+		};
+		CC2F5B4A21F8785F000B1909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FamilinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ti.punch.FamilinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Familink.app/Familink";
+			};
+			name = Release;
+		};
+		CC2F5B4C21F8785F000B1909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FamilinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ti.punch.FamilinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Familink;
+			};
+			name = Debug;
+		};
+		CC2F5B4D21F8785F000B1909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FamilinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ti.punch.FamilinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Familink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC2F5B1521F8785E000B1909 /* Build configuration list for PBXProject "Familink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2F5B4321F8785F000B1909 /* Debug */,
+				CC2F5B4421F8785F000B1909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2F5B4521F8785F000B1909 /* Build configuration list for PBXNativeTarget "Familink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2F5B4621F8785F000B1909 /* Debug */,
+				CC2F5B4721F8785F000B1909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2F5B4821F8785F000B1909 /* Build configuration list for PBXNativeTarget "FamilinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2F5B4921F8785F000B1909 /* Debug */,
+				CC2F5B4A21F8785F000B1909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2F5B4B21F8785F000B1909 /* Build configuration list for PBXNativeTarget "FamilinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2F5B4C21F8785F000B1909 /* Debug */,
+				CC2F5B4D21F8785F000B1909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC2F5B2421F8785E000B1909 /* Familink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC2F5B2521F8785E000B1909 /* Familink.xcdatamodel */,
+			);
+			currentVersion = CC2F5B2521F8785E000B1909 /* Familink.xcdatamodel */;
+			path = Familink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC2F5B1221F8785E000B1909 /* Project object */;
+}

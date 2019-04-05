@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='FamilinkTests.xctest' tests='3' failures='0'>
+  <testsuite name='FamilinkUITests.FamilinkUITests' tests='1' failures='0'>
+    <testcase classname='FamilinkUITests.FamilinkUITests' name='testExample' time='5.695'/>
+  </testsuite>
+  <testsuite name='FamilinkTests.FamilinkTests' tests='2' failures='0'>
+    <testcase classname='FamilinkTests.FamilinkTests' name='testExample' time='0.001'/>
+    <testcase classname='FamilinkTests.FamilinkTests' name='testPerformanceExample' time='0.342'/>
+  </testsuite>
+</testsuites>

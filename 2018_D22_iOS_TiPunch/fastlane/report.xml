@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+<<<<<<< HEAD
+      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.019169">
+=======
+      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.008069">
+>>>>>>> IntegrationFastLane
+        
+      </testcase>
+    
+      
+<<<<<<< HEAD
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.001411">
+=======
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.001173">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: gym" time="147.217819">
+>>>>>>> IntegrationFastLane
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
